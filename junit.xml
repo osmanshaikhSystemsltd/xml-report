@@ -1,0 +1,5 @@
+<testsuite name="Django Project Tests" errors="0" failures="1" skips="0" tests="2" time="0.004"><testcase time="0.001235" classname="polls.tests.AnimalTest" name="test_animals_exact_age" /><testcase time="0.000878" classname="polls.tests.AnimalTest" name="test_animals_unmatched_age"><failure type="builtins.AssertionError" message="10 != 11">Traceback (most recent call last):
+  File "/home/systemsltd/Django-test-example/Example/polls/tests.py", line 18, in test_animals_unmatched_age
+    self.assertEqual(lion.age, 11)
+AssertionError: 10 != 11
+</failure></testcase></testsuite>
